@@ -40,16 +40,12 @@
     background: linear-gradient(75deg, var(--color-secondary), transparent);
     border-radius: 50%;
     position: absolute;
+    filter: blur(15px);
     transition: var(--transition);
 }
 
 .main-header-image {
     position: relative;
-}
-
-.main-header-right:hover .main-header-circle {
-    filter: blur(15px);
-
 }
 
 
@@ -305,6 +301,14 @@ footer {
 
 .footer__socials a svg:hover {
     color: var(--color-gray-100);
+}
+
+.footer__copyright {
+    color: var(--color-gray-100);
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid var(--color-primary-variant);
+    margin-top: 5rem;
 }
 
 
